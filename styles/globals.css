@@ -1,3 +1,5 @@
+@import url('/fonts/stylesheet.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,3 +23,4 @@ a {
 * {
   box-sizing: border-box;
 }
+
