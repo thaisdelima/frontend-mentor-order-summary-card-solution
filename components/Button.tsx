@@ -1,19 +1,17 @@
 import type { NextPage } from 'next';
-import styled from 'styled-components';
-
 interface Props {
   name: string;
 }
 
 
 const Button: NextPage<Props> = (props) => {
-  const Container = styled.div``;
-
   return (
-    <div className="flex justify-center content-center ">
-      <div className="container px-4 bg-blue-bright max-w-xs	rounded-md min-h-570	">
-        <div className="text-white text-center">{props.name}</div>
-      </div>
+    <div className="flex justify-center content-center">
+      <button className=" flex justify-center content-center container px-4 bg-blue-bright max-w-xs shadow-lg	rounded-xl min-h-570  active:bg-opacity-75	">
+        <div className="p-3 text-white text-xs	text-center font-bold">
+          {props.name}
+        </div>
+      </button>
     </div>
   );
 };

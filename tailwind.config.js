@@ -21,7 +21,13 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active'],
+      backgroundOpacity: ['active'],
+      textColor: ['active'],
+      textDecoration: ['active'],
+      textOpacity: ['active'],
+    },
   },
   plugins: [],
 };
