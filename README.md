@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Order summary card solution
 
-## Getting Started
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### The challenge
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Users should be able to:
 
-## Learn More
+- See hover states for interactive elements
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![desktop](./screenshot/frontend-mentor-order-summary-card-solution.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+![mobile](./screenshot/frontend-mentor-order-summary-card-solution-mobile.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Solution URL: [Github](https://github.com/thaisdelima/frontend-mentor-order-summary-card-solution)
+- Live Site URL: [Live in Vercel](https://frontend-mentor-order-summary-card-solution-nine.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [TailWindCSS](https://tailwindcss.com) - For styles
+
+### What I learned
+
+For this project I used TailWindCSS to learn the basics and configurations of this CSS framework.
+
+
+
+### Useful resources
+
+- [TailWindCSS - Active state](https://tailwindcss.com/docs/hover-focus-and-other-states#default-variants-reference) - This specific doc section  helped me with configuration of active status. The active css utility is by default unactivated, so the configuration file must be adjust to use this utility.
+
+
+## Author
+
+- Website - [Thaís de Lima](http://www.thais.dev.br/)
+- Frontend Mentor - [@thaisdelima](https://www.frontendmentor.io/profile/thaisdelima)
+- Twitter - [@thaisdelima](https://www.twitter.com/thaisdelima)
+
+
