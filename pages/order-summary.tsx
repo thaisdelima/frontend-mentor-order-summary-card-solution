@@ -9,7 +9,7 @@ const OrderSummary: NextPage = () => {
 
   return (
     <div className="flex flex-wrap content-center h-screen w-565">
-      <div className="container 	mx-auto bg-white max-w-xs	rounded-3xl shadow-xl min-h-565">
+      <div className="container mx-auto bg-white min-w-80 w-80	 md:w-96	rounded-3xl shadow-xl min-h-565">
         <Image
           className="rounded-t-3xl"
           src="/images/illustration-hero.svg"
