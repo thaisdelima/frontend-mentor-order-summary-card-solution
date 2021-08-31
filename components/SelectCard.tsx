@@ -6,8 +6,8 @@ import Link from 'next/link';
 const SelectCard: NextPage = () => {
 
   return (
-    <div className="my-8 flex flex-wrap justify-center content-center bg-blue-veryPale rounded-md">
-      <div className="container flex items-center justify-between p-4 max-w-xs min-h-570">
+    <div className="my-8 flex flex-wrap justify-center content-center">
+      <div className="container flex items-center justify-between p-4 max-w-xs min-h-570 bg-blue-veryPale rounded-md">
         <Image
           className=""
           src="/images/icon-music.svg"
